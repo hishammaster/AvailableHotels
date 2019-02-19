@@ -3,6 +3,7 @@ from datetime import date
 
 from hotelsAPI.api.views.requestsHandler import requestHandlerWithParams
 
+# Entrance to the program from terminal
 if __name__ == '__main__':
     if (len(sys.argv) <= 1):
         print(
